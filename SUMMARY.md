@@ -7,8 +7,8 @@
     * [Installing CloudBerry Backup](backup-windows/getting-started-1/installation-and-configuration/installing-cloudberry-backup.md)
     * [Activation](backup-windows/getting-started-1/installation-and-configuration/activation.md)
     * [Adding a Backup Destination](backup-windows/getting-started-1/installation-and-configuration/adding-a-backup-destination.md)
-* Signing up for the Cloud
-  * Amazon AWS
+* [Signing up for the Cloud]
+  * [Amazon AWS]
     * [Signing up for Amazon S3](backup-windows/signing-up-for-the-cloud/amazon-aws/signing-up-for-amazon-s3.md)
     * [Configuring a VMimport Role](backup-windows/signing-up-for-the-cloud/amazon-aws/configuring-a-vmimport-role.md)
     * [Deleting Glacier Vaults](backup-windows/signing-up-for-the-cloud/amazon-aws/deleting-glacier-vaults.md)
