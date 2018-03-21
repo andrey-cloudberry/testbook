@@ -2,9 +2,7 @@
 
 In this tutorial we will explain how to sign up for Amazon S3 in just a few steps.
 
-{% hint style="info" %}
-AWS China region requires separate account credentials unique to the AWS China. This means that you need to create a separate Amazon S3 \(China\) Account or Amazon Glacier \(China\) Account \(different from global AWS accounts\). Head over to [AWS China](https://www.amazonaws.cn/en/) page to lear more about the sign up process.
-{% endhint %}
+WS China region requires separate account credentials unique to the AWS China. This means that you need to create a separate Amazon S3 \(China\) Account or Amazon Glacier \(China\) Account \(different from global AWS accounts\). Head over to [AWS China](https://www.amazonaws.cn/en/) page to lear more about the sign up process.
 
 ## Signing up for Amazon S3
 
@@ -60,9 +58,7 @@ To generate security credentials, take the following steps:
 
    ![](../../../.gitbook/assets/signups3screen4.png)
 
-{% hint style="info" %}
 You cannot retrieve the existing secret key. You can see the secret key only once immediately after creating. So, in order to get a secret key, you will need to create a new one.
-{% endhint %}
 
 4. To generate new access keys, click **Create New Access Key**.
 
@@ -72,9 +68,7 @@ You cannot retrieve the existing secret key. You can see the secret key only onc
 
 ![](../../../.gitbook/assets/signups3screen6.png)
 
-{% hint style="info" %}
 If you do not write down the key or download the key file to your computer before you click **Close **or **Cancel **you will not be able to retrieve the secret key in future. Then you'll have to delete the keys that you created and create new ones.
-{% endhint %}
 
 Now that you've signed up for Amazon S3, it's time to use use the newly created credentials when [adding a backup destination](../../getting-started-1/installation-and-configuration/adding-a-backup-destination.md) in CloudBerry Backup.
 

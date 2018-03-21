@@ -14,9 +14,7 @@ The easiest way to empty and delete a Glacier vault is with the help of [CloudBe
 
 Now let's proceed to deleting the vault. First of all, we need to erase all of the data that might still be in the vault.
 
-{% hint style="warning" %}
 You cannot delete a Glacier vault that contains data. Prior to deleting the vault, ensure that it is empty.
-{% endhint %}
 
 On the main toolbar, select your Glacier account and locate the required vault. In this case, we will select a vault named _roberttechwriter_. As you can see, it contains 21 MB worth of data. 
 
@@ -38,9 +36,7 @@ Once the data is listed, select all of it, right-click on it, and click **Delete
 
 Now here's the tricky part: you've deleted the data, but Amazon's internal inventory is only updated once every 24 hours, meaning that your data is "still there". In other words, you need to wait until the next AWS Glacier inventory update which will reflect the changes. Only then will you be able to delete the emptied vault.
 
-{% hint style="info" %}
 AWS Glacier Inventory is updated daily at approximately UTC 0:00.
-{% endhint %}
 
 ### 3. Deleting the Vault
 
@@ -54,7 +50,5 @@ If you attempt to delete the vault before the inventory is updated, you'll encou
 
 The vault will immediately be deleted, but again — you'll have to wait for the next inventory update for the vault to disappear altogether. 
 
-{% hint style="success" %}
 Once the inventory is updated, you can immediately delete the vault.
-{% endhint %}
 

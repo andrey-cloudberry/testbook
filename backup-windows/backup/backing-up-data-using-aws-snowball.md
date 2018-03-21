@@ -90,9 +90,7 @@ Both the manifest file and the client unlock code can be found in your AWS Conso
 
 If you’ve done everything correctly, you should see the following message: **“Server up and running on port 8080”**.
 
-{% hint style="info" %}
 Do not close the command line! It should be running all throughout the process.
-{% endhint %}
 
  Now go back to _CloudBerry Backup_ and conclude setting up the backup plan. Upon finishing, run it and wait for it to complete.
 
@@ -112,9 +110,7 @@ Your files are now being renamed in the cloud. This process takes place because 
 
 Your initial backup has been successfully performed with the help of AWS Snowball. All future backups will be performed as usual from your PC into the cloud by means of CloudBerry Backup.
 
-{% hint style="info" %}
 Do not _Sync Repository_ before the files are all renamed in the cloud. This may lead to unintended consequences.
-{% endhint %}
 
 
 
