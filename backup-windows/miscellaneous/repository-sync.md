@@ -12,8 +12,6 @@ Case in point: suppose you accidentally deleted a file in the cloud that you had
 
 
 
-{% tabs %}
-{% tab title="Repository Sync" %}
 1. Launch CloudBerry Backup. Under **Tools**, click **Options**.
 
 ![](../../.gitbook/assets/screen-shot-2018-01-19-at-20.08.41.png)
@@ -25,9 +23,7 @@ Case in point: suppose you accidentally deleted a file in the cloud that you had
    3. Select the storage you want to sync and click **Synchronize Now**.
 
 ![](../../.gitbook/assets/screen-shot-2018-01-19-at-19.32.09.png)
-{% endtab %}
 
-{% tab title="Consistency Check" %}
 1. Launch CloudBerry Backup. On the first tab, next to the cloud storage, click on the burger icon and click **Run Consistency Check.**  
 
 ![](../../.gitbook/assets/screen-shot-2018-01-19-at-19.36.52.png)
@@ -35,8 +31,6 @@ Case in point: suppose you accidentally deleted a file in the cloud that you had
 This will essentially trigger the repository sync from the first tab and additionally display the discrepancy between the repository and the cloud in the _History_ tab.
 
 ![](../../.gitbook/assets/image%20%2834%29.png)
-{% endtab %}
-{% endtabs %}
 
 Syncing the repository will not modify either the data in the cloud, or the backup plans. It will simply update the local database \(repository\) in line with the information fetched from the cloud.  
 
