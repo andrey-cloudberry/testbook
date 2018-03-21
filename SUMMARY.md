@@ -2,8 +2,6 @@
 
 * [Introduction](README.md)
 
-## CLOUDBERRY BACKUP
-
 * [Getting Started](backup-windows/getting-started-1/README.md)
   * [Installation & Configuration](backup-windows/getting-started-1/installation-and-configuration/README.md)
     * [Installing CloudBerry Backup](backup-windows/getting-started-1/installation-and-configuration/installing-cloudberry-backup.md)
@@ -67,8 +65,6 @@
 * Miscellaneous
   * [Command Line Interface](backup-windows/miscellaneous/command-line-interface.md)
   * [Repository Sync](backup-windows/miscellaneous/repository-sync.md)
-
-## About
 
 * [About CloudBerry Lab](about/about-cloudberry-lab.md)
 
