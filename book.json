@@ -1,3 +1,6 @@
 {
-    "plugins": ["collapsible-menu"]
+    "plugins": ["collapsible-menu"],
+    "links": {
+    "sidebar": false
+}
 }
