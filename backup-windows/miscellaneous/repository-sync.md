@@ -35,4 +35,3 @@ This will essentially trigger the repository sync from the first tab and additio
 Syncing the repository will not modify either the data in the cloud, or the backup plans. It will simply update the local database \(repository\) in line with the information fetched from the cloud.  
 
 It is generally not  recommended to perform repository sync unless something happened with the backed up data in the cloud.  
-

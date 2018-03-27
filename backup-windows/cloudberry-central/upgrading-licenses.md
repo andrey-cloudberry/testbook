@@ -25,8 +25,3 @@ Having appropriately released the license, you will see a pop-up window indicati
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
 Click on the link and proceed to checking out. If you experience any issues as to upgrading your licenses — feel free to drop us a line at [support@cloudberrylab.com](mailto:support@cloudberrylab.com).
-
-
-
-
-
